@@ -6,6 +6,6 @@ def add(x, y):
         raise TypeError("The entered value is not an integer or a float")
     return x + y
 
-def substract(x, y):
+def substract(a, b):
     """ Substract one number from another"""
-    return y - x
+    return b - a
